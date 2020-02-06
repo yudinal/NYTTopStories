@@ -16,6 +16,7 @@
 		A6D8556223EC6E4F006ABCF0 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D8556123EC6E4F006ABCF0 /* NewsFeedViewController.swift */; };
 		A6D8556423EC6E74006ABCF0 /* SavedArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D8556323EC6E74006ABCF0 /* SavedArticleViewController.swift */; };
 		A6D8556623EC6E8C006ABCF0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D8556523EC6E8C006ABCF0 /* SettingsViewController.swift */; };
+		A6D8556923EC7159006ABCF0 /* NewsFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D8556823EC7159006ABCF0 /* NewsFeedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		A6D8556123EC6E4F006ABCF0 /* NewsFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
 		A6D8556323EC6E74006ABCF0 /* SavedArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedArticleViewController.swift; sourceTree = "<group>"; };
 		A6D8556523EC6E8C006ABCF0 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A6D8556823EC7159006ABCF0 /* NewsFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,8 @@
 		A6D8553B23EC6B7A006ABCF0 /* NYTTopStories */ = {
 			isa = PBXGroup;
 			children = (
+				A6D8556723EC711B006ABCF0 /* Views */,
+				A6D8556A23EC7522006ABCF0 /* Controllers */,
 				A6D8555E23EC6C38006ABCF0 /* TopStoriesTabController.swift */,
 				A6D8556123EC6E4F006ABCF0 /* NewsFeedViewController.swift */,
 				A6D8556323EC6E74006ABCF0 /* SavedArticleViewController.swift */,
@@ -111,6 +115,21 @@
 				A6D8554723EC6B7D006ABCF0 /* LaunchScreen.storyboard */,
 			);
 			path = "Supported Files";
+			sourceTree = "<group>";
+		};
+		A6D8556723EC711B006ABCF0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6D8556823EC7159006ABCF0 /* NewsFeedView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A6D8556A23EC7522006ABCF0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +236,7 @@
 				A6D8556423EC6E74006ABCF0 /* SavedArticleViewController.swift in Sources */,
 				A6D8555F23EC6C38006ABCF0 /* TopStoriesTabController.swift in Sources */,
 				A6D8553F23EC6B7A006ABCF0 /* SceneDelegate.swift in Sources */,
+				A6D8556923EC7159006ABCF0 /* NewsFeedView.swift in Sources */,
 				A6D8556223EC6E4F006ABCF0 /* NewsFeedViewController.swift in Sources */,
 				A6D8556623EC6E8C006ABCF0 /* SettingsViewController.swift in Sources */,
 			);
