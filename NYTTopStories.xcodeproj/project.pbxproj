@@ -13,6 +13,9 @@
 		A6D8554923EC6B7D006ABCF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6D8554723EC6B7D006ABCF0 /* LaunchScreen.storyboard */; };
 		A6D8555423EC6B7D006ABCF0 /* NYTTopStoriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D8555323EC6B7D006ABCF0 /* NYTTopStoriesTests.swift */; };
 		A6D8555F23EC6C38006ABCF0 /* TopStoriesTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D8555E23EC6C38006ABCF0 /* TopStoriesTabController.swift */; };
+		A6D8556223EC6E4F006ABCF0 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D8556123EC6E4F006ABCF0 /* NewsFeedViewController.swift */; };
+		A6D8556423EC6E74006ABCF0 /* SavedArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D8556323EC6E74006ABCF0 /* SavedArticleViewController.swift */; };
+		A6D8556623EC6E8C006ABCF0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D8556523EC6E8C006ABCF0 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		A6D8555323EC6B7D006ABCF0 /* NYTTopStoriesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTTopStoriesTests.swift; sourceTree = "<group>"; };
 		A6D8555523EC6B7D006ABCF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6D8555E23EC6C38006ABCF0 /* TopStoriesTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoriesTabController.swift; sourceTree = "<group>"; };
+		A6D8556123EC6E4F006ABCF0 /* NewsFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
+		A6D8556323EC6E74006ABCF0 /* SavedArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedArticleViewController.swift; sourceTree = "<group>"; };
+		A6D8556523EC6E8C006ABCF0 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +83,11 @@
 		A6D8553B23EC6B7A006ABCF0 /* NYTTopStories */ = {
 			isa = PBXGroup;
 			children = (
-				A6D8553C23EC6B7A006ABCF0 /* AppDelegate.swift */,
-				A6D8553E23EC6B7A006ABCF0 /* SceneDelegate.swift */,
 				A6D8555E23EC6C38006ABCF0 /* TopStoriesTabController.swift */,
-				A6D8554523EC6B7D006ABCF0 /* Assets.xcassets */,
-				A6D8554723EC6B7D006ABCF0 /* LaunchScreen.storyboard */,
+				A6D8556123EC6E4F006ABCF0 /* NewsFeedViewController.swift */,
+				A6D8556323EC6E74006ABCF0 /* SavedArticleViewController.swift */,
+				A6D8556523EC6E8C006ABCF0 /* SettingsViewController.swift */,
+				A6D8556023EC6E07006ABCF0 /* Supported Files */,
 				A6D8554A23EC6B7D006ABCF0 /* Info.plist */,
 			);
 			path = NYTTopStories;
@@ -94,6 +100,17 @@
 				A6D8555523EC6B7D006ABCF0 /* Info.plist */,
 			);
 			path = NYTTopStoriesTests;
+			sourceTree = "<group>";
+		};
+		A6D8556023EC6E07006ABCF0 /* Supported Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6D8553C23EC6B7A006ABCF0 /* AppDelegate.swift */,
+				A6D8553E23EC6B7A006ABCF0 /* SceneDelegate.swift */,
+				A6D8554523EC6B7D006ABCF0 /* Assets.xcassets */,
+				A6D8554723EC6B7D006ABCF0 /* LaunchScreen.storyboard */,
+			);
+			path = "Supported Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,8 +214,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6D8553D23EC6B7A006ABCF0 /* AppDelegate.swift in Sources */,
+				A6D8556423EC6E74006ABCF0 /* SavedArticleViewController.swift in Sources */,
 				A6D8555F23EC6C38006ABCF0 /* TopStoriesTabController.swift in Sources */,
 				A6D8553F23EC6B7A006ABCF0 /* SceneDelegate.swift in Sources */,
+				A6D8556223EC6E4F006ABCF0 /* NewsFeedViewController.swift in Sources */,
+				A6D8556623EC6E8C006ABCF0 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
